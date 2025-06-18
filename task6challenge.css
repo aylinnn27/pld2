@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600&display=swap');
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+body {
+  background-color: #fcfafa;
+}
+
+header {
+  padding: 30px;
+  background-color: #6da5d6;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  gap: 30px;
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #132433;
+  font-weight: 300;
+}
+
+.all {
+  display: flex;
+  align-items: flex-start;
+}
+
+.sidebar {
+  width: 200px;
+  background-color: #f0f0f0;
+  padding: 20px;
+  min-height: 90vh;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar a {
+  display: block;
+  margin-bottom: 20px;
+  text-decoration: none;
+  color: #132433;
+  font-size: 18px;
+}
+
+.texts {
+  flex: 1;
+  padding: 20px 40px;
+  min-height: 90vh;
+}
+
+.texts h2 {
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.texts p {
+  margin-bottom: 30px;
+  font-weight: 300;
+}
+
+/* About box style */
+.about-box {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  padding: 25px;
+  margin-bottom: 30px;
+  border-radius: 6px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+/* Info boxes with hover effect */
+.info-box {
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border-left: 5px solid #6da5d6;
+  padding: 20px;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.info-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 16px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+footer {
+  display: flex;
+  justify-content: flex-end;
+  padding: 30px;
+  background-color: #9acbf5;
+}
+
+.footer-icons {
+  display: flex;
+  gap: 25px;
+  margin-right: 25px;
+}
+
+.footer-icons img {
+  height: 24px;
+  width: auto;
+}
