@@ -1,0 +1,45 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  padding: 30px;
+  margin: 0;
+}
+
+.container {
+  width: 90%;
+  max-width: 800px;
+  margin: auto;
+}
+
+/* About Section */
+.about {
+  background: #ffffff;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 30px;
+  border-radius: 8px;
+}
+
+.about h2 {
+  margin-top: 0;
+  color: #333;
+}
+
+/* Boxes for HTML/CSS/JS */
+.box {
+  background: #e0e7ff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-left: 5px solid #3b82f6;
+  border-radius: 6px;
+  transition: transform 0.3s ease;
+}
+
+.box:hover {
+  transform: translateY(-5px);
+}
+
+.box h3 {
+  margin-top: 0;
+  color: #1e3a8a;
+}
